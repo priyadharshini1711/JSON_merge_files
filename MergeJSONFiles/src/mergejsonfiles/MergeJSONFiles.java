@@ -56,8 +56,8 @@ public class MergeJSONFiles {
         System.out.println("Enter the starting name of the files to be read = ");
         String filename = sc.next();
 
-        //reads the files with the common prefix                
-        File dir = new File("C:\\Users\\admin\\Documents\\NetBeansProjects\\MergeJSONFiles");
+        //reads the files with the common prefix from the current working directory                
+        File dir = new File(System.getProperty("user.dir"));
         File[] foundFiles = dir.listFiles(new FilenameFilter() {
             public boolean accept(File dir, String name) {
                 return name.startsWith(filename.trim());
