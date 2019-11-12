@@ -1,7 +1,0 @@
-Enter the starting name of the files to be read = data
-
-Value from the files = [[{"name":"Alexis Sanchez","club":"Manchester United"},{"name":"Robin van Persie","club":"Feyenoord"}],[{"name":"Nicolas Pepe","club":"Arsenal"}],[{"name":"Gonzalo Higuain","club":"Napoli"},{"name":"Sunil Chettri","club":"Bengaluru FC"}]]
-
-Enter the file size in integer = 10
-Actual Output File Size = 238 bytes
-File written successfully
